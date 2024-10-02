@@ -1,0 +1,43 @@
+# 국가별 코드와 대륙 정보를 딕셔너리로 정리
+continent_mapping = {
+    'ALG': 'Africa', 'ANG': 'Africa', 'BEN': 'Africa', 'BOT': 'Africa', 'BUR': 'Africa', 'BDI': 'Africa', 
+    'CMR': 'Africa', 'CPV': 'Africa', 'CAF': 'Africa', 'CHA': 'Africa', 'COM': 'Africa', 'CGO': 'Africa', 
+    'COD': 'Africa', 'CIV': 'Africa', 'DJI': 'Africa', 'EGY': 'Africa', 'ERI': 'Africa', 'SWZ': 'Africa', 
+    'ETH': 'Africa', 'GAB': 'Africa', 'GAM': 'Africa', 'GHA': 'Africa', 'GUI': 'Africa', 'GBS': 'Africa', 
+    'GEQ': 'Africa', 'KEN': 'Africa', 'LES': 'Africa', 'LBR': 'Africa', 'LBA': 'Africa', 'MAD': 'Africa', 
+    'MAW': 'Africa', 'MLI': 'Africa', 'MAR': 'Africa', 'MRI': 'Africa', 'MTN': 'Africa', 'MOZ': 'Africa', 
+    'NAM': 'Africa', 'NIG': 'Africa', 'NGR': 'Africa', 'UGA': 'Africa', 'RWA': 'Africa', 'STP': 'Africa', 
+    'SEN': 'Africa', 'SEY': 'Africa', 'SLE': 'Africa', 'SOM': 'Africa', 'RSA': 'Africa', 'SSD': 'Africa', 
+    'SUD': 'Africa', 'TAN': 'Africa', 'TOG': 'Africa', 'TUN': 'Africa', 'ZAM': 'Africa', 'ZIM': 'Africa',
+    'ANT': 'America', 'ARG': 'America', 'ARU': 'America', 'BAH': 'America', 'BAR': 'America', 'BIZ': 'America', 
+    'BER': 'America', 'BOL': 'America', 'BRA': 'America', 'CAY': 'America', 'CAN': 'America', 'CHI': 'America', 
+    'COL': 'America', 'CRC': 'America', 'CUB': 'America', 'DOM': 'America', 'DMA': 'America', 'ESA': 'America', 
+    'ECU': 'America', 'GRN': 'America', 'GUA': 'America', 'GUY': 'America', 'HAI': 'America', 'HON': 'America', 
+    'JAM': 'America', 'MEX': 'America', 'NCA': 'America', 'PAN': 'America', 'PAR': 'America', 'PER': 'America', 
+    'PUR': 'America', 'SKN': 'America', 'LCA': 'America', 'VIN': 'America', 'SUR': 'America', 'TTO': 'America', 
+    'USA': 'America', 'URU': 'America', 'VEN': 'America', 'IVB': 'America', 'ISV': 'America',
+    'AFG': 'Asia', 'BRN': 'Asia', 'BAN': 'Asia', 'BHU': 'Asia', 'BRU': 'Asia', 'CAM': 'Asia', 'CHN': 'Asia', 
+    'KOR': 'Asia', 'HKG': 'Asia', 'IND': 'Asia', 'INA': 'Asia', 'IRI': 'Asia', 'IRQ': 'Asia', 'JPN': 'Asia', 
+    'JOR': 'Asia', 'KAZ': 'Asia', 'KGZ': 'Asia', 'KUW': 'Asia', 'LAO': 'Asia', 'LBN': 'Asia', 'MAS': 'Asia', 
+    'MDV': 'Asia', 'MGL': 'Asia', 'MYA': 'Asia', 'NEP': 'Asia', 'OMA': 'Asia', 'PAK': 'Asia', 'PLE': 'Asia', 
+    'PHI': 'Asia', 'QAT': 'Asia', 'PRK': 'Asia', 'KSA': 'Asia', 'SGP': 'Asia', 'SRI': 'Asia', 'SYR': 'Asia', 
+    'TJK': 'Asia', 'TPE': 'Asia', 'THA': 'Asia', 'TLS': 'Asia', 'TKM': 'Asia', 'UAE': 'Asia', 'UZB': 'Asia', 
+    'VIE': 'Asia', 'YEM': 'Asia',
+    'ALB': 'Europe', 'AND': 'Europe', 'ARM': 'Europe', 'AUT': 'Europe', 'AZE': 'Europe', 'BEL': 'Europe', 
+    'BIH': 'Europe', 'BUL': 'Europe', 'CYP': 'Europe', 'CRO': 'Europe', 'CZE': 'Europe', 'DEN': 'Europe', 
+    'ESP': 'Europe', 'EST': 'Europe', 'FIN': 'Europe', 'FRA': 'Europe', 'GEO': 'Europe', 'GER': 'Europe', 
+    'GBR': 'Europe', 'GRE': 'Europe', 'HUN': 'Europe', 'IRL': 'Europe', 'ISL': 'Europe', 'ISR': 'Europe', 
+    'ITA': 'Europe', 'KOS': 'Europe', 'LAT': 'Europe', 'LIE': 'Europe', 'LTU': 'Europe', 'LUX': 'Europe', 
+    'MKD': 'Europe', 'MLT': 'Europe', 'MDA': 'Europe', 'MON': 'Europe', 'MNE': 'Europe', 'NED': 'Europe', 
+    'NOR': 'Europe', 'POL': 'Europe', 'POR': 'Europe', 'ROU': 'Europe', 'SMR': 'Europe', 'SRB': 'Europe', 
+    'SVK': 'Europe', 'SLO': 'Europe', 'SWE': 'Europe', 'SUI': 'Europe', 'TUR': 'Europe', 'UKR': 'Europe',
+    'ASA': 'Oceania', 'AUS': 'Oceania', 'COK': 'Oceania', 'FIJ': 'Oceania', 'GUM': 'Oceania', 'KIR': 'Oceania', 
+    'MHL': 'Oceania', 'FSM': 'Oceania', 'NRU': 'Oceania', 'NZL': 'Oceania', 'PLW': 'Oceania', 'PNG': 'Oceania', 
+    'SOL': 'Oceania', 'SAM': 'Oceania', 'TGA': 'Oceania', 'TUV': 'Oceania', 'VAN': 'Oceania'
+}
+
+# 새로운 대륙 컬럼을 추가하고 NOC 코드에 따른 대륙을 매핑
+df['Continent'] = df['NOC'].map(continent_mapping)
+
+# 결과 확인
+import ace_tools as tools; tools.display_dataframe_to_user(name="Athlete Data with Continent", dataframe=df)
