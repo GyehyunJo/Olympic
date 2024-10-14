@@ -1,3 +1,5 @@
+// 해당 파일은 터미널 환경에서 실행해야 정상적으로 실행됩니다.(명령어 입력을 위해)
+
 import 'dart:async';
 import 'dart:convert';
 import 'dart:io';
